@@ -1,0 +1,27 @@
+{
+  "name": "@gogogosir/eslint-config",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOGOGOSIR/eslint-config.git",
+    "directory": "packages/demo"
+  },
+  "keywords": [],
+  "author": "wanjianqiang <1239531712@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GOGOGOSIR/eslint-config/issues"
+  },
+  "homepage": "https://github.com/GOGOGOSIR/eslint-config/packages/demo#readme",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  }
+}
