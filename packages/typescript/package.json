@@ -1,12 +1,12 @@
 {
-  "name": "@gogogosir/eslint-config",
+  "name": "@gogogosir/eslint-config-ts",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GOGOGOSIR/eslint-config.git",
-    "directory": "packages/all"
+    "directory": "packages/typescript"
   },
   "keywords": [],
   "author": "wanjianqiang <1239531712@qq.com>",
@@ -16,8 +16,11 @@
   },
   "homepage": "https://github.com/GOGOGOSIR/eslint-config/packages/demo#readme",
   "files": [
-    "index.js"
+    "*.js"
   ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -26,12 +29,5 @@
   },
   "peerDependencies": {
     "eslint": "^8.14.0"
-  },
-  "dependencies": {
-    "eslint-config-import": "^0.13.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-promise": "^6.0.0"
   }
 }

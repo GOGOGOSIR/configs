@@ -1,12 +1,12 @@
 {
-  "name": "@gogogosir/eslint-config",
+  "name": "@gogogosir/eslint-config-basic",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GOGOGOSIR/eslint-config.git",
-    "directory": "packages/all"
+    "directory": "packages/basic"
   },
   "keywords": [],
   "author": "wanjianqiang <1239531712@qq.com>",
@@ -16,8 +16,11 @@
   },
   "homepage": "https://github.com/GOGOGOSIR/eslint-config/packages/demo#readme",
   "files": [
-    "index.js"
+    "*.js"
   ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
   "publishConfig": {
     "access": "public"
   },
