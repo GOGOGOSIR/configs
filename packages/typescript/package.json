@@ -1,5 +1,5 @@
 {
-  "name": "@gogogosir/eslint-config-ts",
+  "name": "@gogogosir/eslint-config-typescript",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -28,6 +28,12 @@
     "eslint": "^8.14.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@gogogosir/eslint-config-basic": "^0.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0"
   }
 }

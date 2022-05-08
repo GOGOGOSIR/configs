@@ -78,5 +78,8 @@ module.exports = {
     'no-alert': 'warn',
     'vars-on-top': 'error',
     'require-await': 'off',
+
+    // n
+    'n/no-callback-literal': 'off',
   },
 }
