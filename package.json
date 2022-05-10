@@ -8,7 +8,6 @@
   "description": "eslint通用配置",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "wizard": "npx lerna-wizard",
     "cz": "git-cz",
     "prepare": "husky install"
   },
