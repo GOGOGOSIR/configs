@@ -28,6 +28,12 @@ module.exports = {
     'vue/max-attributes-per-line': 'off',
 
     // 提高可读性
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: { normal: 'never', void: 'always' },
+      },
+    ],
     'vue/attribute-hyphenation': ['error', 'always'],
     'vue/component-definition-name-casing': 'error',
     'vue/html-closing-bracket-spacing': 'error',

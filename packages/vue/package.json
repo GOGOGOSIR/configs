@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/GOGOGOSIR/eslint-config/issues"
   },
-  "homepage": "https://github.com/GOGOGOSIR/eslint-config/packages/demo#readme",
+  "homepage": "https://github.com/GOGOGOSIR/eslint-config",
   "files": [
     "*.js"
   ],

@@ -1,20 +1,22 @@
 {
   "name": "@gogogosir/eslint-config",
   "version": "0.0.0",
-  "description": "",
+  "description": "gogogosir eslint config",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GOGOGOSIR/eslint-config.git",
     "directory": "packages/all"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint-config"
+  ],
   "author": "wanjianqiang <1239531712@qq.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GOGOGOSIR/eslint-config/issues"
   },
-  "homepage": "https://github.com/GOGOGOSIR/eslint-config/packages/demo#readme",
+  "homepage": "https://github.com/GOGOGOSIR/eslint-config",
   "files": [
     "index.js"
   ],
@@ -25,7 +27,7 @@
     "eslint": "^8.14.0"
   },
   "peerDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
     "@gogogosir/eslint-config-vue": "^0.0.0",
