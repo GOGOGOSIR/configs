@@ -6,4 +6,13 @@ module.exports = {
   singleQuote: true,
   quoteProps: 'as-needed',
   jsxSingleQuote: true,
+  trailingComma: 'none',
+  bracketSpacing: true,
+  bracketSameLine: false,
+  proseWrap: 'preserve',
+  vueIndentScriptAndStyle: false,
+  endOfLine: 'lf',
+  arrowParens: 'always',
+  embeddedLanguageFormatting: 'auto', // v2.1.0 可用
+  singleAttributePerLine: 'true', // v2.6.0 可用
 }
