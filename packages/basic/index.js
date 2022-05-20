@@ -13,7 +13,7 @@ module.exports = {
 
   rules: {
     // import
-    'import/order': 'error',
+    'import/order': ['error'],
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/named': 'error',
@@ -26,7 +26,7 @@ module.exports = {
     // common
     curly: ['error', 'multi-or-nest', 'consistent'],
     quotes: ['error', 'single'],
-    'quote-props': ['error', 'consistent-as-needed'],
+    'quote-props': ['error', 'as-needed'],
     'no-param-reassign': 'off',
     'no-restricted-syntax': [
       'error',
@@ -35,7 +35,14 @@ module.exports = {
       'WithStatement',
     ],
     'no-return-await': 'off',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always',
+      },
+    ],
     'no-var': 'error',
     'prefer-arrow-callback': [
       'error',

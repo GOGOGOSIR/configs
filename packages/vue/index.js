@@ -11,11 +11,7 @@ module.exports = {
           jsx: true,
         },
       },
-      rules: {
-        'no-unused-vars': 'off',
-        'no-undef': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
-      },
+      rules: {},
     },
   ],
   extends: [
@@ -26,8 +22,16 @@ module.exports = {
     // off
     'vue/multi-word-component-names': 'off',
     'vue/max-attributes-per-line': 'off',
+    'vue/require-default-prop': 'off',
 
     // 提高可读性
+    'vue/html-closing-bracket-newline': [
+      'error',
+      {
+        singleline: 'never',
+        multiline: 'always',
+      },
+    ],
     'vue/html-self-closing': [
       'error',
       {
@@ -68,7 +72,13 @@ module.exports = {
       },
     ],
     'vue/component-api-style': ['error', ['script-setup', 'composition']],
-    'vue/component-name-in-template-casing': ['error', 'kebab-case'],
+    'vue/component-name-in-template-casing': [
+      'error',
+      'kebab-case',
+      {
+        registeredComponentsOnly: false,
+      },
+    ],
     'vue/component-options-name-casing': ['error', 'PascalCase'],
     'vue/custom-event-name-casing': ['error', 'kebab-case'],
     'vue/next-tick-style': ['error', 'callback'],
@@ -80,7 +90,8 @@ module.exports = {
         presets: ['all'],
       },
     ],
-    'vue/no-undef-components': 'error',
+    // 会与使用第三方UI库冲突
+    // 'vue/no-undef-components': 'error',
     'vue/no-v-text': 'error',
     'vue/prefer-import-from-vue': 'error',
     'vue/padding-line-between-blocks': ['error', 'always'],
@@ -89,7 +100,7 @@ module.exports = {
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { before: true, after: true }],
     'vue/block-spacing': ['error', 'always'],
-    'vue/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    'vue/brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'vue/comma-dangle': ['error', 'never'],
     'vue/comma-spacing': ['error', { before: false, after: true }],
     'vue/comma-style': ['error', 'last'],
@@ -133,10 +144,9 @@ module.exports = {
       { overrides: { '?': 'before', ':': 'before', '|>': 'before' } },
     ],
     'vue/prefer-template': 'error',
-    'vue/quote-props': ['error', 'consistent-as-needed'],
+    'vue/quote-props': ['error', 'as-needed'],
     'vue/space-in-parens': ['error', 'never'],
     'vue/space-infix-ops': 'error',
-    'vue/space-unary-ops': ['error', { int32Hint: false }],
     'vue/template-curly-spacing': ['error', 'never'],
   },
 }

@@ -10,12 +10,7 @@ module.exports = {
     // 接口和类型文字需要特定的成员分隔符样式
     '@typescript-eslint/member-delimiter-style': [
       'error',
-      {
-        multiline: { delimiter: 'none' },
-        singleline: {
-          delimiter: 'none',
-        },
-      },
+      { multiline: { delimiter: 'none' } },
     ],
     // 需要在类型注释周围保持一致的间距
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
@@ -27,13 +22,13 @@ module.exports = {
     // 强制或禁止使用记录类型
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
-    // 强制使用类型导出的一致使用
-    '@typescript-eslint/consistent-type-exports': [
-      'error',
-      {
-        fixMixedExportsWithInlineTypeSpecifier: true,
-      },
-    ],
+    // // 强制使用类型导出的一致使用 (会与 vue/component-definition-name-casing 冲突)
+    // '@typescript-eslint/consistent-type-exports': [
+    //   'error',
+    //   {
+    //     fixMixedExportsWithInlineTypeSpecifier: true,
+    //   },
+    // ],
     // 强制类型导入的一致使用
     '@typescript-eslint/consistent-type-imports': [
       'error',
@@ -48,11 +43,25 @@ module.exports = {
     '@typescript-eslint/no-useless-empty-export': 'error',
 
     // override js
+    // 不允许定义了未使用的变量
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+        destructuredArrayIgnorePattern: '^_',
+        caughtErrors: 'all',
+        caughtErrorsIgnorePattern: '^ignore',
+      },
+    ],
     // 对块执行一致的大括号样式
     'brace-style': 'off',
     '@typescript-eslint/brace-style': [
       'error',
-      'stroustrup',
+      '1tbs',
       { allowSingleLine: true },
     ],
     // 要求或不允许尾随逗号
@@ -125,9 +134,9 @@ module.exports = {
     // 禁止变量重新声明
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': ['error', { builtinGlobals: false }],
-    // 不允许将文字作为异常抛出
-    'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal': ['error'],
+    // 不允许将文字作为异常抛出 (会与 vue/component-definition-name-casing 冲突)
+    // 'no-throw-literal': 'off',
+    // '@typescript-eslint/no-throw-literal': ['error'],
     // 禁止未使用的表达式
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': [
@@ -155,7 +164,14 @@ module.exports = {
     '@typescript-eslint/quotes': ['error', 'single'],
     // 在函数括号之前强制保持一致的间距
     'space-before-function-paren': 'off',
-    '@typescript-eslint/space-before-function-paren': ['error', 'never'],
+    '@typescript-eslint/space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always',
+      },
+    ],
     // 此规则旨在确保中缀运算符周围有空格。
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': ['error', { int32Hint: false }],
@@ -173,5 +189,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-namespace': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
   },
 }
