@@ -93,7 +93,8 @@ module.exports = {
     // 会与使用第三方UI库冲突
     // 'vue/no-undef-components': 'error',
     'vue/no-v-text': 'error',
-    'vue/prefer-import-from-vue': 'error',
+    // 已废弃
+    // 'vue/prefer-import-from-vue': 'error',
     'vue/padding-line-between-blocks': ['error', 'always'],
 
     // extensions
