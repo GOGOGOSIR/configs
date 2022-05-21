@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     '@gogogosir/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   rules: {
     // ts
@@ -10,14 +10,14 @@ module.exports = {
     // 接口和类型文字需要特定的成员分隔符样式
     '@typescript-eslint/member-delimiter-style': [
       'error',
-      { multiline: { delimiter: 'none' } },
+      { multiline: { delimiter: 'none' } }
     ],
     // 需要在类型注释周围保持一致的间距
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
     // 强制类型导入的一致使用
     '@typescript-eslint/consistent-type-imports': [
       'error',
-      { prefer: 'type-imports', disallowTypeAnnotations: false },
+      { prefer: 'type-imports', disallowTypeAnnotations: false }
     ],
     // 强制或禁止使用记录类型
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
@@ -29,14 +29,6 @@ module.exports = {
     //     fixMixedExportsWithInlineTypeSpecifier: true,
     //   },
     // ],
-    // 强制类型导入的一致使用
-    '@typescript-eslint/consistent-type-imports': [
-      'error',
-      {
-        prefer: 'type-imports',
-        disallowTypeAnnotations: false,
-      },
-    ],
     // 在可能令人困惑的位置禁止非空断言
     '@typescript-eslint/no-confusing-non-null-assertion': 'error',
     // 禁止不会更改模块文件中任何内容的空导出
@@ -54,15 +46,15 @@ module.exports = {
         argsIgnorePattern: '^_',
         destructuredArrayIgnorePattern: '^_',
         caughtErrors: 'all',
-        caughtErrorsIgnorePattern: '^ignore',
-      },
+        caughtErrorsIgnorePattern: '^ignore'
+      }
     ],
     // 对块执行一致的大括号样式
     'brace-style': 'off',
     '@typescript-eslint/brace-style': [
       'error',
       '1tbs',
-      { allowSingleLine: true },
+      { allowSingleLine: true }
     ],
     // 要求或不允许尾随逗号
     'comma-dangle': 'off',
@@ -105,22 +97,22 @@ module.exports = {
           'JSXClosingFragment',
           'JSXText',
           'JSXEmptyExpression',
-          'JSXSpreadChild',
+          'JSXSpreadChild'
         ],
-        offsetTernaryExpressions: true,
-      },
+        offsetTernaryExpressions: true
+      }
     ],
     'keyword-spacing': 'off',
     '@typescript-eslint/keyword-spacing': [
       'error',
-      { before: true, after: true },
+      { before: true, after: true }
     ],
     // 要求或禁止班级成员之间有空行
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': [
       'error',
       'always',
-      { exceptAfterSingleLine: true },
+      { exceptAfterSingleLine: true }
     ],
     // 禁止重复的班级成员
     'no-dupe-class-members': 'off',
@@ -144,14 +136,14 @@ module.exports = {
       {
         allowShortCircuit: true,
         allowTernary: true,
-        allowTaggedTemplates: true,
-      },
+        allowTaggedTemplates: true
+      }
     ],
     // 在定义之前禁止使用变量
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': [
       'error',
-      { functions: false, classes: false, variables: true },
+      { functions: false, classes: false, variables: true }
     ],
     // 禁止不必要的构造函数
     'no-useless-constructor': 'off',
@@ -169,8 +161,8 @@ module.exports = {
       {
         anonymous: 'never',
         named: 'never',
-        asyncArrow: 'always',
-      },
+        asyncArrow: 'always'
+      }
     ],
     // 此规则旨在确保中缀运算符周围有空格。
     'space-infix-ops': 'off',
@@ -189,6 +181,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-namespace': 'off',
-    '@typescript-eslint/no-var-requires': 'off',
-  },
+    '@typescript-eslint/no-var-requires': 'off'
+  }
 }

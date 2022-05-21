@@ -2,13 +2,13 @@ module.exports = {
   env: {
     es6: true,
     browser: true,
-    node: true,
+    node: true
   },
   extends: [
     'standard',
     'plugin:import/recommended',
     'plugin:import/typescript',
-    'plugin:eslint-comments/recommended',
+    'plugin:eslint-comments/recommended'
   ],
 
   rules: {
@@ -24,9 +24,9 @@ module.exports = {
           'sibling',
           'index',
           'object',
-          'type',
-        ],
-      },
+          'type'
+        ]
+      }
     ],
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
@@ -46,7 +46,7 @@ module.exports = {
       'error',
       'DebuggerStatement',
       'LabeledStatement',
-      'WithStatement',
+      'WithStatement'
     ],
     'no-return-await': 'off',
     'space-before-function-paren': [
@@ -54,31 +54,31 @@ module.exports = {
       {
         anonymous: 'never',
         named: 'never',
-        asyncArrow: 'always',
-      },
+        asyncArrow: 'always'
+      }
     ],
     'no-var': 'error',
     'prefer-arrow-callback': [
       'error',
       {
         allowNamedFunctions: false,
-        allowUnboundThis: true,
-      },
+        allowUnboundThis: true
+      }
     ],
     'object-shorthand': [
       'error',
       'always',
       {
         ignoreConstructors: false,
-        avoidQuotes: true,
-      },
+        avoidQuotes: true
+      }
     ],
     'prefer-rest-params': 'error',
     'prefer-template': 'error',
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'no-use-before-define': [
       'error',
-      { functions: false, classes: false, variables: true },
+      { functions: false, classes: false, variables: true }
     ],
     'sort-imports': [
       'error',
@@ -87,8 +87,8 @@ module.exports = {
         ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-        allowSeparatedGroups: false,
-      },
+        allowSeparatedGroups: false
+      }
     ],
 
     // best-practice
@@ -101,6 +101,6 @@ module.exports = {
     'require-await': 'off',
 
     // n
-    'n/no-callback-literal': 'off',
-  },
+    'n/no-callback-literal': 'off'
+  }
 }

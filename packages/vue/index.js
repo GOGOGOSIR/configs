@@ -8,15 +8,15 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
         ecmaFeatures: {
-          jsx: true,
-        },
+          jsx: true
+        }
       },
-      rules: {},
-    },
+      rules: {}
+    }
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@gogogosir/eslint-config-typescript',
+    '@gogogosir/eslint-config-typescript'
   ],
   rules: {
     // off
@@ -29,14 +29,14 @@ module.exports = {
       'error',
       {
         singleline: 'never',
-        multiline: 'always',
-      },
+        multiline: 'always'
+      }
     ],
     'vue/html-self-closing': [
       'error',
       {
-        html: { normal: 'never', void: 'always' },
-      },
+        html: { normal: 'never', void: 'always' }
+      }
     ],
     'vue/attribute-hyphenation': ['error', 'always'],
     'vue/component-definition-name-casing': 'error',
@@ -48,8 +48,8 @@ module.exports = {
       {
         atComponent: 'v-slot',
         default: 'shorthand',
-        named: 'shorthand',
-      },
+        named: 'shorthand'
+      }
     ],
     'vue/v-on-style': 'error',
     'vue/v-on-event-hyphenation': ['error', 'always'],
@@ -58,8 +58,8 @@ module.exports = {
     'vue/component-tags-order': [
       'error',
       {
-        order: [['script', 'template'], 'style'],
-      },
+        order: [['script', 'template'], 'style']
+      }
     ],
 
     // other
@@ -67,17 +67,17 @@ module.exports = {
       'error',
       {
         script: {
-          lang: 'ts',
-        },
-      },
+          lang: 'ts'
+        }
+      }
     ],
     'vue/component-api-style': ['error', ['script-setup', 'composition']],
     'vue/component-name-in-template-casing': [
       'error',
       'kebab-case',
       {
-        registeredComponentsOnly: false,
-      },
+        registeredComponentsOnly: false
+      }
     ],
     'vue/component-options-name-casing': ['error', 'PascalCase'],
     'vue/custom-event-name-casing': ['error', 'kebab-case'],
@@ -87,8 +87,8 @@ module.exports = {
     'vue/no-potential-component-option-typo': [
       'error',
       {
-        presets: ['all'],
-      },
+        presets: ['all']
+      }
     ],
     // 会与使用第三方UI库冲突
     // 'vue/no-undef-components': 'error',
@@ -119,35 +119,35 @@ module.exports = {
       'error',
       'DebuggerStatement',
       'LabeledStatement',
-      'WithStatement',
+      'WithStatement'
     ],
     'vue/no-sparse-arrays': 'error',
     'vue/object-curly-newline': [
       'error',
-      { multiline: true, consistent: true },
+      { multiline: true, consistent: true }
     ],
     'vue/object-curly-spacing': ['error', 'always'],
     'vue/object-property-newline': [
       'error',
-      { allowMultiplePropertiesPerLine: true },
+      { allowMultiplePropertiesPerLine: true }
     ],
     'vue/object-shorthand': [
       'error',
       'always',
       {
         ignoreConstructors: false,
-        avoidQuotes: true,
-      },
+        avoidQuotes: true
+      }
     ],
     'vue/operator-linebreak': [
       'error',
       'after',
-      { overrides: { '?': 'before', ':': 'before', '|>': 'before' } },
+      { overrides: { '?': 'before', ':': 'before', '|>': 'before' } }
     ],
     'vue/prefer-template': 'error',
     'vue/quote-props': ['error', 'as-needed'],
     'vue/space-in-parens': ['error', 'never'],
     'vue/space-infix-ops': 'error',
-    'vue/template-curly-spacing': ['error', 'never'],
-  },
+    'vue/template-curly-spacing': ['error', 'never']
+  }
 }

@@ -5,16 +5,16 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GOGOGOSIR/eslint-config.git",
+    "url": "git+https://github.com/GOGOGOSIR/configs.git",
     "directory": "packages/prettier"
   },
   "keywords": [],
   "author": "wanjianqiang <1239531712@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GOGOGOSIR/eslint-config/issues"
+    "url": "https://github.com/GOGOGOSIR/configs/issues"
   },
-  "homepage": "https://github.com/GOGOGOSIR/eslint-config/",
+  "homepage": "https://github.com/GOGOGOSIR/configs/",
   "files": [
     "*.js"
   ],
