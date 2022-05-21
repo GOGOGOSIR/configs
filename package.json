@@ -12,7 +12,8 @@
     "prepare": "husky install",
     "release-start": "release-it -- --config ./scripts/release/.release-it.cjs",
     "release": "node ./scripts/release/release.cjs",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "lerna publish"
   },
   "repository": {
     "type": "git",
