@@ -4,13 +4,12 @@
     "packages/*"
   ],
   "name": "configs",
-  "version": "0.0.0",
   "description": "eslint通用配置",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "cz": "git-cz",
     "prepare": "husky install",
-    "release": "node ./script/release.js",
+    "release": "node ./script/release/release.js",
     "lint": "eslint ."
   },
   "repository": {
