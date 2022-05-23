@@ -8,15 +8,21 @@ async function genNewRelease() {
     '--next-version',
     nextVersion
   ])
+  console.log(nextVersion, stdout)
   return stdout
 }
 
 const gen = (module.exports = async () => {
   const newRelease = await genNewRelease()
   const changelogPath = path.resolve(__dirname, '../../CHANGELOG.md')
+  const fileExists = fs.existsSync(changelogPath)
 
-  const newChangelog =
-    `${newRelease}\n\n\n${fs.readFileSync(changelogPath, { encoding: 'utf8' })}`
+  let newChangelog = newRelease
+  if (fileExists) {
+    newChangelog =
+      `${newRelease}\n\n\n${fs.readFileSync(changelogPath, { encoding: 'utf8' })}`
+  }
+
   fs.writeFileSync(changelogPath, newChangelog)
 })
 

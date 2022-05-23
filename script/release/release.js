@@ -44,7 +44,7 @@ const release = async () => {
 
   try {
     await execa(require.resolve('lerna/cli'), lernaArgs, { stdio: 'inherit' })
-    await execa(require.resolve('node', [path.resolve(__dirname, './gen-changelog.js')], { stdio: 'inherit' }))
+    await execa('node', [path.resolve(__dirname, './gen-changelog.js')], { stdio: 'inherit' })
 
     await execa('git', ['add', '-A'], { stdio: 'inherit' })
     await execa('git', ['commit', '-m', `chore: v${version} published`], { stdio: 'inherit' })

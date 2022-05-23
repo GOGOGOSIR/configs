@@ -10,7 +10,8 @@
     "cz": "git-cz",
     "prepare": "husky install",
     "release": "node ./script/release/release.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node ./script/release/test.js"
   },
   "repository": {
     "type": "git",
