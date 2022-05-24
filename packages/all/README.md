@@ -53,6 +53,11 @@ yarn add eslint @gogogosir/eslint-config -D
 
 ```json
 {
+  // 如果你使用了vetur请配置下下面的设置
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  // 必须配置的字段
   "editor.formatOnSave": false,
   "prettier.enable": false,
   "editor.codeActionsOnSave": {
