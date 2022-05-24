@@ -1,4 +1,4 @@
-const path = require('path')
+// const path = require('path')
 const execa = require('execa')
 const semver = require('semver')
 const inquirer = require('inquirer')
@@ -37,14 +37,15 @@ const release = async () => {
     'publish',
     version,
     '--dist-tag',
-    distTag
+    distTag,
+    '--conventional-commits'
   ]
 
   lernaArgs.push('--force-publish')
 
   try {
     await execa(require.resolve('lerna/cli'), lernaArgs, { stdio: 'inherit' })
-    await execa('node', [path.resolve(__dirname, './gen-changelog.js')], { stdio: 'inherit' })
+    // await execa('node', [path.resolve(__dirname, './gen-changelog.js')], { stdio: 'inherit' })
 
     await execa('git', ['add', '-A'], { stdio: 'inherit' })
     await execa('git', ['commit', '-m', `chore: v${version} published`], { stdio: 'inherit' })

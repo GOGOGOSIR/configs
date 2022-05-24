@@ -9,9 +9,8 @@
     "bootstrap": "lerna bootstrap",
     "cz": "git-cz",
     "prepare": "husky install",
-    "release": "node ./script/release/release.js",
-    "lint": "eslint .",
-    "test": "node ./script/release/test.js"
+    "release": "node ./scripts/release/release.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,8 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
-    "@gogogosir/eslint-config": "*",
-    "@gogogosir/prettier-config": "*",
+    "@gogogosir/eslint-config": "./packages/all",
+    "@gogogosir/prettier-config": "./packages/prettier",
     "commitizen": "^4.2.4",
     "cross-spawn": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
