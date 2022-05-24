@@ -169,6 +169,7 @@ module.exports = {
         allowSeparatedGroups: false
       }
     ],
+    indent: ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
 
     // best-practice
     'block-scoped-var': 'error',
