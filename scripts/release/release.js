@@ -47,10 +47,6 @@ const release = async () => {
     await execa(require.resolve('lerna/cli'), lernaArgs, { stdio: 'inherit' })
     // await execa('node', [path.resolve(__dirname, './gen-changelog.js')], { stdio: 'inherit' })
 
-    await execa('git', ['add', '-A'], { stdio: 'inherit' })
-    await execa('git', ['commit', '-m', `chore: v${version} published`], { stdio: 'inherit' })
-    await execa('git', ['push', 'origin', 'main'], { stdio: 'inherit' })
-
     const { stdout } = await execa('git', ['branch', '-a'])
     const hasDevBranch = stdout.split('\n').some(b => b.includes('main'))
     if (hasDevBranch) {
