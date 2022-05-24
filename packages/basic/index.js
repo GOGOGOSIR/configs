@@ -98,6 +98,7 @@ module.exports = {
           'builtin',
           'external',
           'internal',
+          'unknown',
           'parent',
           'sibling',
           'index',
