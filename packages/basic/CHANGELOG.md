@@ -15,8 +15,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * 修复 *.d.ts 忽略 TSTypeParameterInstantiation,解决其 indent 错误 ([f37e2fc](https://github.com/GOGOGOSIR/configs/commit/f37e2fcc7e81ee7b4c7fb0372924d2dbca8dcee3))
 * 修复 import/order 对 @ 自定义路径排序不正确的问题 ([9100d11](https://github.com/GOGOGOSIR/configs/commit/9100d118590c088d73892c51c49e93b402623f2a))
-
-
-### 📝 Documentation | 文档
-
-* 补充vosode的配置文档 ([4660fdf](https://github.com/GOGOGOSIR/configs/commit/4660fdf18dc705065ff0bec410d19d1761c1af71))
