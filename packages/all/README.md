@@ -47,16 +47,21 @@ yarn add eslint @gogogosir/eslint-config -D
 
 ### 配置 vscode
 
+确保在 vscode 中有安装 ```ESLint``` 插件，如果你安装了 ```Prettier-Code formatter``` 插件请禁用或卸载它
+
 在根目录创建一个 ```.vscode/settings.json```
 
 ```json
 {
+  "editor.formatOnSave": false,
   "prettier.enable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
 }
 ```
+
+
 
 
 
