@@ -8,6 +8,9 @@ ESlint 和 Prettier 的通用配置
   <a href='https://www.npmjs.com/package/@gogogosir/eslint-config'>
     <img src="https://img.shields.io/npm/v/@gogogosir/eslint-config?color=41b883&label=npm" />
   </a>
+  <a href='https://www.npmjs.com/package/@gogogosir/eslint-config'>
+    <img src="https://img.shields.io/npm/l/@gogogosir/eslint-config?label=npm" />
+  </a>
 </p>
 
 ### 安装
@@ -33,7 +36,21 @@ yarn add eslint @gogogosir/eslint-config -D
 ```json
 {
   "scripts": {
-    "lint": "eslint \"**/*.{vue,ts,js}\""
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  }
+}
+```
+
+### 配置 vscode
+
+在根目录创建一个 ```.vscode/settings.json```
+
+```json
+{
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }
 ```
@@ -43,6 +60,9 @@ yarn add eslint @gogogosir/eslint-config -D
 <p align='left'>
   <a href='https://www.npmjs.com/package/@gogogosir/prettier-config'>
     <img src="https://img.shields.io/npm/v/@gogogosir/prettier-config?color=41b883&label=npm" />
+  </a>
+   <a href='https://www.npmjs.com/package/@gogogosir/prettier-config'>
+    <img src="https://img.shields.io/npm/l/@gogogosir/prettier-config?label=npm" />
   </a>
 </p>
 
