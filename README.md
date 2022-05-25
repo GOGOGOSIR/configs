@@ -63,6 +63,14 @@ yarn add eslint @gogogosir/eslint-config -D
 }
 ```
 
+### Q&A
+
+**1. 配置了eslint校验不生效 ?**
+
+* 请升级 eslint 的版本必须大于 8.0.1, typescript 的版本必须大于 3.9
+
+* 如果你项目本身安装了 ```@typescript-eslint/eslint-plugin``` 、```@typescript-eslint/parser``` 、```eslint-plugin-vue``` 这几个插件，请卸载它，因为该库已经依赖了这些库，以免因为版本不同而冲突
+
 
 
 ## Prettier Config
