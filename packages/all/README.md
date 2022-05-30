@@ -25,7 +25,7 @@ yarn add eslint @gogogosir/eslint-config -D
 ### 配置 `.eslintrc.js`
 
 ``` js
-{
+module.exports = {
   "extends": [
     "@gogogosir"
   ]
