@@ -121,6 +121,7 @@ module.exports = {
     quotes: ['error', 'single'],
     'quote-props': ['error', 'as-needed'],
     'no-param-reassign': 'off',
+    'no-useless-return': 'off',
     'no-restricted-syntax': [
       'error',
       'DebuggerStatement',
