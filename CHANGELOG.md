@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.0.2](https://github.com/GOGOGOSIR/configs/compare/v0.0.1...v0.0.2) (2022-06-13)
+
+
+### 📝 Documentation | 文档
+
+* **@gogogosir/eslint-config:** 修正配置 .eslintrc.js 的方法 ([004da81](https://github.com/GOGOGOSIR/configs/commit/004da81df9d7a8f76b4a5086131df3a0c7c1b47d))
+* 为 eslint-config 的文档新增 Q&A ([ccbf4c8](https://github.com/GOGOGOSIR/configs/commit/ccbf4c8fa1ba09afa96885521843cca450678c1d))
+* 修改 prettier-config 的说明文档 ([71db9c1](https://github.com/GOGOGOSIR/configs/commit/71db9c14c2d8e509c6edf19fb1767528e1e94389))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **@gogogosir/eslint-config-basic:** 关闭 no-useless-return ([ac0fe55](https://github.com/GOGOGOSIR/configs/commit/ac0fe5540198838976a7f82281b78c09adf63b36))
+* 升级eslint版本,因为eslint-config-standard的peer dependents要大于8.0.1 ([1e048b9](https://github.com/GOGOGOSIR/configs/commit/1e048b931c737c71ed5ddba58df3355a51abb87f))
+
+
+### 📦‍ Build System | 打包构建
+
+* **global:** add github-release ([b021ed5](https://github.com/GOGOGOSIR/configs/commit/b021ed57f419225f7598f7282f1f57b26fdb47fb))
+
+
+
 ### [0.0.1](https://github.com/GOGOGOSIR/configs/compare/v0.0.1-0...v0.0.1) (2022-05-24)
 
 
