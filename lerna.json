@@ -7,7 +7,7 @@
   "npmClient": "yarn",
   "command": {
     "version": {
-      "allowBranch": "main"
+      "allowBranch": "master"
     },
     "publish": {
       "ignoreChanges": [

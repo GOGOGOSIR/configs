@@ -10,6 +10,7 @@
     "cz": "git-cz",
     "prepare": "husky install",
     "release": "node ./scripts/release/release.js",
+    "github-release": "conventional-github-releaser -p cmyr-config -r 0",
     "lint": "eslint ."
   },
   "repository": {
@@ -28,6 +29,8 @@
     "@gogogosir/eslint-config": "./packages/all",
     "@gogogosir/prettier-config": "./packages/prettier",
     "commitizen": "^4.2.4",
+    "conventional-changelog-cmyr-config": "^2.0.4",
+    "conventional-github-releaser": "^3.1.5",
     "cross-spawn": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.13.0",
@@ -49,6 +52,51 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "changelog": {
+    "bugsUrl": "https://github.com/GOGOGOSIR/configs/issues/",
+    "emojis": true,
+    "authorName": false,
+    "authorEmail": false,
+    "settings": {
+      "feat": {
+        "title": "✨ Features | 新功能",
+        "enable": true
+      },
+      "fix": {
+        "title": "🐛 Bug Fixes | Bug 修复"
+      },
+      "perf": {
+        "title": "⚡ Performance Improvements | 性能优化"
+      },
+      "revert": {
+        "title": "⏪ Revert | 回退",
+        "enable": false
+      },
+      "refactor": {
+        "title": "♻️ Code Refactoring | 代码重构"
+      },
+      "docs": {
+        "title": "📝 Documentation | 文档"
+      },
+      "style": {
+        "title": "💄 Styles | 样式"
+      },
+      "test": {
+        "title": "✅ Tests | 测试",
+        "enable": false
+      },
+      "build": {
+        "title": "📦‍ Build System | 打包构建"
+      },
+      "ci": {
+        "title": "👷 Continuous Integration | CI 配置"
+      },
+      "chore": {
+        "title": "🚀 Chore | 构建/工程依赖/工具",
+        "enable": false
+      }
     }
   }
 }
