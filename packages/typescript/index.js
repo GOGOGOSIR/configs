@@ -1,8 +1,17 @@
+const basic = require('@gogogosir/eslint-config-basic')
+
 module.exports = {
   extends: [
     '@gogogosir/eslint-config-basic',
+    'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended'
   ],
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] }
+    }
+  },
+  overrides: basic.overrides,
   rules: {
     // ts
     // 强制在语句后始终使用分号
