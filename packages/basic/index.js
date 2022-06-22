@@ -25,6 +25,18 @@ module.exports = {
     '!.vitepress',
     '!.vscode'
   ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: [
+          '.js',
+          '.jsx',
+          '.cjs',
+          '.mjs'
+        ]
+      }
+    }
+  },
   overrides: [
     {
       files: ['*.json', '*.json5'],
@@ -84,6 +96,14 @@ module.exports = {
           {
             pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
             order: { type: 'asc' }
+          },
+          {
+            pathPattern: '^exports.*$',
+            order: [
+              'types',
+              'require',
+              'import'
+            ]
           }
         ]
       }
