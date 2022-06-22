@@ -1,12 +1,12 @@
 {
-  "name": "@gogogosir/eslint-config-vue",
+  "name": "@gogogosir/eslint-config-tailwindcss",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GOGOGOSIR/configs.git",
-    "directory": "packages/vue"
+    "directory": "packages/tailwindcss"
   },
   "keywords": [],
   "author": "wanjianqiang <1239531712@qq.com>",
@@ -31,8 +31,6 @@
     "eslint": ">=8.0.1"
   },
   "dependencies": {
-    "@gogogosir/eslint-config-tailwindcss": "^0.0.2",
-    "@gogogosir/eslint-config-typescript": "^0.0.2",
-    "eslint-plugin-vue": "^8.7.1"
+    "eslint-plugin-tailwindcss": "^3.5.2"
   }
 }

@@ -16,7 +16,8 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@gogogosir/eslint-config-typescript'
+    '@gogogosir/eslint-config-typescript',
+    '@gogogosir/eslint-config-tailwindcss'
   ],
   rules: {
     // off

@@ -9,12 +9,15 @@
   </a>
 </p>
 
-## 🚀 Features
+### 🚀 实现的功能
 
-- vue3 的校验
-- ts 的校验
-- json 的校验
-- 集成了 eslint-config-standard 包，并自定义了一些常用配置
+- [x] 集成 js 语法校验
+- [x] 集成 json、jsonc、json5 语法校验
+- [x] 集成 typescript 语法校验
+- [x] 集成 vue 语法校验
+- [x] 集成 tailwindcss 语法校验
+
+<hr />
 
 ### 安装
 
@@ -22,12 +25,12 @@
 yarn add eslint @gogogosir/eslint-config -D
 ```
 
-### 配置 `.eslintrc.js`
+### 配置 `.eslintrc.js` 或 `.eslintrc.cjs`
 
 ``` js
 module.exports = {
-  "extends": [
-    "@gogogosir"
+  'extends': [
+    '@gogogosir'
   ]
 }
 ```
@@ -47,22 +50,47 @@ module.exports = {
 
 ### 配置 vscode
 
-确保在 vscode 中有安装 ```ESLint``` 插件，如果你安装了 ```Prettier-Code formatter``` 插件请禁用或卸载它
+确保在 vscode 中有安装以下插件
+
+- **ESLint**
+
+- **Prettier - Code formatter**
+
+- **Format Code Action** [prettier-vscode issue](https://github.com/prettier/prettier-vscode/issues/1555)
+
+<p style="text-indent:2em;font-weight: bold; font-size: 12px;color: orange;">
+该插件用于解决 ESLint 和 Prettier 保存冲突
+</p>
+
 
 在根目录创建一个 ```.vscode/settings.json```
 
 ```json
 {
-  // 如果你使用了vetur请配置下下面的设置
+  "prettier.enable": true,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "vetur.format.defaultFormatter.html": "none",
   "vetur.format.defaultFormatter.ts": "none",
   "vetur.format.defaultFormatter.js": "none",
-  // 必须配置的字段
-  "editor.formatOnSave": false,
-  "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  // 保存修复
+  "editor.codeActionsOnSave": [
+    "source.formatDocument",
+    "source.fixAll.eslint"
+  ],
+  "eslint.validate": [
+    "typescript",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "json",
+    "jsonc",
+    "json5"
+  ]
 }
 ```
 
