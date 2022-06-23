@@ -1,6 +1,6 @@
 {
   "name": "@gogogosir/eslint-config-vue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -31,8 +31,8 @@
     "eslint": ">=8.0.1"
   },
   "dependencies": {
-    "@gogogosir/eslint-config-tailwindcss": "^0.0.3",
-    "@gogogosir/eslint-config-typescript": "^0.0.3",
+    "@gogogosir/eslint-config-tailwindcss": "^0.0.4",
+    "@gogogosir/eslint-config-typescript": "^0.0.4",
     "eslint-plugin-vue": "^8.7.1"
   }
 }

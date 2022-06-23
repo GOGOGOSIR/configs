@@ -1,6 +1,6 @@
 {
   "name": "@gogogosir/prettier-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "prettier config",
   "main": "index.js",
   "repository": {

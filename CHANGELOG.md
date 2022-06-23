@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.0.4](https://github.com/GOGOGOSIR/configs/compare/v0.0.3...v0.0.4) (2022-06-23)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **@gogogosir/eslint-config-basic:** 配置 settings 限制范围 ([847d90e](https://github.com/GOGOGOSIR/configs/commit/847d90e88dc502d3bf692dbd82f24e64f31784ff))
+* **@gogogosir/eslint-config-typescript:** 为其添加 plugin:import/typescript 和扩展 extensions ([ad6d7f5](https://github.com/GOGOGOSIR/configs/commit/ad6d7f5073afd563091f05b6f1cce12add78b2ff))
+
+
+### 📝 Documentation | 文档
+
+* **@gogogosir/eslint-config:** 调整文档 ([c9621b9](https://github.com/GOGOGOSIR/configs/commit/c9621b99b2767b1633a9377956162655711107ff))
+
+
+
 ### [0.0.3](https://github.com/GOGOGOSIR/configs/compare/v0.0.2...v0.0.3) (2022-06-22)
 
 
