@@ -31,7 +31,6 @@ module.exports = {
         extensions: [
           '.js',
           '.jsx',
-          '.cjs',
           '.mjs'
         ]
       }
