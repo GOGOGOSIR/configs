@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.0-alpha.0 (2022-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* 升级prettier配制
+* 重构eslint-config的配置结构
+
+### ✨ Features | 新功能
+
+* 新增markdown,yaml文件的校验 ([216d8c5](https://github.com/GOGOGOSIR/configs/commit/216d8c56e4fbdf0def094db528262df3ff7e0d99))
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* 升级prettier配制 ([7590a7e](https://github.com/GOGOGOSIR/configs/commit/7590a7e72a255760950ddfa60810d25567813dd2))
+
+
+### 📝 Documentation | 文档
+
+* add changelog ([ac892cd](https://github.com/GOGOGOSIR/configs/commit/ac892cd381261c2474001059f3bc36bf3b32c10c))
+
+
+
 ### [0.0.4](https://github.com/GOGOGOSIR/configs/compare/v0.0.3...v0.0.4) (2022-06-23)
 
 
