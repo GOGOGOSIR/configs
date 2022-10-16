@@ -1,102 +1,49 @@
 {
+
+  "name": "config-monorepo",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "name": "configs",
-  "description": "eslint通用配置",
-  "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "cz": "git-cz",
-    "prepare": "husky install",
-    "release": "node ./scripts/release/release.js",
-    "github-release": "conventional-github-releaser -p cmyr-config -r 0",
-    "lint": "eslint ."
-  },
+  "description": "一些常用的配置",
+  "license": "MIT",
+  "author": "wanjianqiang",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GOGOGOSIR/configs.git"
   },
-  "author": "wanjianqiang",
-  "license": "MIT",
+  "engines": {
+    "node": ">=14.16.0 || >=16.11.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "reset": "lerna clean",
+    "cz": "git-cz",
+    "prepare": "husky install",
+    "release": "lerna publish --conventional-commits --create-release gitlab",
+    "prerelease": "lerna publish --conventional-commits --conventional-prerelease --create-release gitlab",
+    "graduate": "lerna publish --conventional-commits --conventional-graduate --create-release gitlab"
+  },
   "bugs": {
     "url": "https://github.com/GOGOGOSIR/configs/issues"
   },
   "homepage": "https://github.com/GOGOGOSIR/configs#readme",
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-conventional": "^16.2.1",
-    "@gogogosir/eslint-config": "./packages/all",
-    "@gogogosir/prettier-config": "./packages/prettier",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "commitizen": "^4.2.4",
-    "conventional-changelog-cmyr-config": "^2.0.4",
-    "conventional-github-releaser": "^3.1.5",
-    "cross-spawn": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.13.0",
-    "execa": "^5.0.1",
+    "eslint": "^8.23.1",
     "husky": "^7.0.0",
-    "inquirer": "^8.2.4",
-    "lerna": "^4.0.0",
-    "lerna-changelog": "^2.2.0",
+    "lerna": "^5.6.2",
     "lint-staged": "^12.4.1",
-    "prettier": "^2.6.2",
-    "semver": "^7.3.7",
     "typescript": "^4.6.3"
   },
   "lint-staged": {
-    "packages/**/*.{js,jsx,vue,ts,tsx}": [
+    "packages/**/*.{js,cjs,mjs,jsx,vue,ts,tsx,cts,mts,json,yaml}": [
       "eslint --fix --max-warnings 0"
     ]
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
-    }
-  },
-  "changelog": {
-    "bugsUrl": "https://github.com/GOGOGOSIR/configs/issues/",
-    "emojis": true,
-    "authorName": false,
-    "authorEmail": false,
-    "settings": {
-      "feat": {
-        "title": "✨ Features | 新功能",
-        "enable": true
-      },
-      "fix": {
-        "title": "🐛 Bug Fixes | Bug 修复"
-      },
-      "perf": {
-        "title": "⚡ Performance Improvements | 性能优化"
-      },
-      "revert": {
-        "title": "⏪ Revert | 回退",
-        "enable": false
-      },
-      "refactor": {
-        "title": "♻️ Code Refactoring | 代码重构"
-      },
-      "docs": {
-        "title": "📝 Documentation | 文档"
-      },
-      "style": {
-        "title": "💄 Styles | 样式"
-      },
-      "test": {
-        "title": "✅ Tests | 测试",
-        "enable": false
-      },
-      "build": {
-        "title": "📦‍ Build System | 打包构建"
-      },
-      "ci": {
-        "title": "👷 Continuous Integration | CI 配置"
-      },
-      "chore": {
-        "title": "🚀 Chore | 构建/工程依赖/工具",
-        "enable": false
-      }
     }
   }
 }
