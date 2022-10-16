@@ -67,7 +67,7 @@
       "registry": "https://registry.npmjs.org/"
     },
     "version": {
-      "allowBranch": ["master"]
+      "allowBranch": ["feature/*", "master"]
     }
   },
   "npmClient": "pnpm",
