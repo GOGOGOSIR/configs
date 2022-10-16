@@ -1,5 +1,4 @@
 {
-
   "name": "config-monorepo",
   "private": true,
   "description": "一些常用的配置",
@@ -28,6 +27,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@gogogosir/eslint-config": "workspace:*",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.23.1",
