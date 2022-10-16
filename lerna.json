@@ -64,6 +64,7 @@
         "**/*.md",
         "**/__tests__/**"
       ],
+      "message": "chore(release): publish %v",
       "registry": "https://registry.npmjs.org/"
     },
     "version": {
