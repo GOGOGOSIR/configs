@@ -1,8 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:react/recommended',
-    '../ts/index.js',
-    '../tailwindcss/index.js'
+    'plugin:react/recommended'
   ],
   settings: {
     react: {

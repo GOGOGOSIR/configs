@@ -1,8 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:vue/vue3-recommended',
-    '../ts/index.js',
-    '../tailwindcss/index.js'
+    'plugin:vue/vue3-recommended'
   ],
   overrides: [
     {
