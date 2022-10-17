@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GOGOGOSIR/configs.git",
-    "directory": "packages/eslint"
+    "directory": "."
   },
   "bugs": {
     "url": "https://github.com/GOGOGOSIR/configs/issues"
@@ -18,7 +18,15 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "basic/*",
+    "index.js",
+    "json/*",
+    "markdown/*",
+    "react/*",
+    "tailwindcss/*",
+    "ts/*",
+    "vue/*",
+    "yaml/*"
   ],
   "publishConfig": {
     "access": "public"

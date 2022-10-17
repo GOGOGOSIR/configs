@@ -59,100 +59,6 @@ module.exports = {
 
 - 如果你项目本身安装了 eslint 的其他插件，如： @typescript-eslint/eslint-plugin 、@typescript-eslint/parser 、eslint-plugin-vue 等，请卸载它，因为该库已经依赖了这些库, 你只需安装 eslint 即可，以免因为版本不同而冲突
 
-## 配置 vscode
-
-- 在项目根目录新建 ```.vscode/extensions.json``` 文件
-- 配置 ```extensions.json```
-
-```json
-{
-  "recommendations": [
-    "cpylua.language-postcss",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "rohit-gohri.format-code-action",
-    "vue.volar"
-  ]
-}
-```
-
-- 在项目根目录新建 ```.vscode/settings.json``` 文件
-- 配置 ```settings.json```
-
-```json
-{
-  "[css]": {
-    "editor.codeActionsOnSave": [
-      "source.formatDocument",
-      // eslint-disable-next-line jsonc/sort-array-values
-      "source.fixAll.stylelint"
-    ],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.codeActionsOnSave": [
-      "source.formatDocument",
-      // eslint-disable-next-line jsonc/sort-array-values
-      "source.fixAll.eslint"
-    ],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[scss]": {
-    "editor.codeActionsOnSave": [
-      "source.formatDocument",
-      // eslint-disable-next-line jsonc/sort-array-values
-      "source.fixAll.stylelint"
-    ],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "css.validate": false,
-  // 保存修复
-  "editor.codeActionsOnSave": [
-    "source.fixAll.eslint",
-    "source.fixAll.stylelint"
-  ],
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": false,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "json",
-    "json5",
-    "jsonc",
-    "typescript",
-    "typescriptreact",
-    "yaml",
-    "yml"
-  ],
-  "files.associations": {
-    "*.css": "postcss"
-  },
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "less.validate": false,
-  "prettier.enable": true,
-  "scss.validate": false,
-  "stylelint.enable": true,
-  "stylelint.validate": [
-    "css",
-    "postcss",
-    "scss",
-    "vue"
-  ],
-  // 禁用 vetur
-  "vetur.enable": "false"
-}
-```
-
 ## stylelint-config
 
 <p align='left'>
@@ -260,3 +166,97 @@ module.exports = {
 - **prettier** 与 **eslint-plugin-vue** 中的 **vue/max-attributes-per-line** 规则冲突
 - **prettier** 与 **volar** 搭配 **tailwindcss** 使用 **hover** 时会产生冲突 [issue](https://github.com/johnsoncodehk/volar/issues/1448)
 - [Why I don't use Prettier](https://antfu.me/posts/why-not-prettier)
+
+## vscode-config
+
+- 在项目根目录新建 ```.vscode/extensions.json``` 文件
+- 配置 ```extensions.json```
+
+```json
+{
+  "recommendations": [
+    "cpylua.language-postcss",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "rohit-gohri.format-code-action",
+    "vue.volar"
+  ]
+}
+```
+
+- 在项目根目录新建 ```.vscode/settings.json``` 文件
+- 配置 ```settings.json```
+
+```json
+{
+  "[css]": {
+    "editor.codeActionsOnSave": [
+      "source.formatDocument",
+      // eslint-disable-next-line jsonc/sort-array-values
+      "source.fixAll.stylelint"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.codeActionsOnSave": [
+      "source.formatDocument",
+      // eslint-disable-next-line jsonc/sort-array-values
+      "source.fixAll.eslint"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.codeActionsOnSave": [
+      "source.formatDocument",
+      // eslint-disable-next-line jsonc/sort-array-values
+      "source.fixAll.stylelint"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "css.validate": false,
+  // 保存修复
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint",
+    "source.fixAll.stylelint"
+  ],
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "json5",
+    "jsonc",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "less.validate": false,
+  "prettier.enable": true,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.validate": [
+    "css",
+    "postcss",
+    "scss",
+    "vue"
+  ],
+  // 禁用 vetur
+  "vetur.enable": "false"
+}
+```
