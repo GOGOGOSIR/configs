@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.2](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.1...@gogogosir/eslint-config@1.0.0-alpha.2) (2022-10-17)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **eslint:** 安装后不生效的问题 ([dcdec2a](https://github.com/GOGOGOSIR/configs/commit/dcdec2a86f37d0a603e4ab59fb840e99ac65dfff))
+
+
+
 ## [1.0.0-alpha.1](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.0...@gogogosir/eslint-config@1.0.0-alpha.1) (2022-10-17)
 
 
