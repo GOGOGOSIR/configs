@@ -255,8 +255,7 @@ module.exports = {
   "stylelint.validate": [
     "css",
     "postcss",
-    "scss",
-    "vue"
+    "scss"
   ],
   // 禁用 vetur
   "vetur.enable": "false"
