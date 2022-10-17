@@ -15,7 +15,7 @@
   },
   "main": "index.js",
   "files": [
-    "*.js"
+    "index.js"
   ],
   "publishConfig": {
     "access": "public"
