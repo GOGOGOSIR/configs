@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.1](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.0...@gogogosir/eslint-config@1.0.0-alpha.1) (2022-10-17)
+
+
+### ✨ Features | 新功能
+
+* **eslint:** 新增react配置 ([ef98c91](https://github.com/GOGOGOSIR/configs/commit/ef98c91896bb9ac9f07b175ab7d76bc10e9018a5))
+
+
+
 ## 1.0.0-alpha.0 (2022-10-16)
 
 
