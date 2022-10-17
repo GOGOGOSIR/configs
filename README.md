@@ -82,8 +82,8 @@ pnpm add stylelint @gogogosir/stylelint-config -D
 
 ### 使用
 
-- 在项目根目录新建 ```.stylelint.config.cjs``` 文件
-- 配置 ```.stylelint.config.cjs``` 文件
+- 在项目根目录新建 ```stylelint.config.cjs``` 文件
+- 配置 ```stylelint.config.cjs``` 文件
 
 ```js
 module.exports = {
