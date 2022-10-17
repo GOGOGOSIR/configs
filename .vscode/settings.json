@@ -63,7 +63,8 @@
   "stylelint.validate": [
     "css",
     "postcss",
-    "scss"
+    "scss",
+    "vue"
   ],
   // 禁用 vetur
   "vetur.enable": "false"

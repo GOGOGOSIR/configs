@@ -77,7 +77,7 @@ module.exports = {
 ### 安装
 
 ```shell
-pnpm add stylelint @gogogosir/stylelint-config -D
+pnpm add stylelint postcss-html @gogogosir/stylelint-config -D
 ```
 
 ### 使用
@@ -255,7 +255,8 @@ module.exports = {
   "stylelint.validate": [
     "css",
     "postcss",
-    "scss"
+    "scss",
+    "vue"
   ],
   // 禁用 vetur
   "vetur.enable": "false"
