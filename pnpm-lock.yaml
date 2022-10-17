@@ -76,20 +76,20 @@ importers:
 
   packages/stylelint:
     specifiers:
-      postcss: 8.4.16
-      postcss-html: 1.5.0
-      stylelint: 14.13.0
-      stylelint-config-recommended-vue: 1.4.0
-      stylelint-config-standard: 28.0.0
-      stylelint-config-standard-scss: 5.0.0
+      postcss: ^8.4.18
+      postcss-html: ^1.5.0
+      stylelint: ^14.14.0
+      stylelint-config-recommended-vue: ^1.4.0
+      stylelint-config-standard: ^29.0.0
+      stylelint-config-standard-scss: ^5.0.0
     dependencies:
-      stylelint-config-recommended-vue: registry.npmjs.org/stylelint-config-recommended-vue/1.4.0_xhez2jbrlm5gsznvnryddq5rcu
-      stylelint-config-standard: registry.npmjs.org/stylelint-config-standard/28.0.0_stylelint@14.13.0
-      stylelint-config-standard-scss: registry.npmjs.org/stylelint-config-standard-scss/5.0.0_2qqkayucxwqapvsl2wc27obdby
+      stylelint-config-recommended-vue: registry.npmjs.org/stylelint-config-recommended-vue/1.4.0_2wb2ag3ubchp7fdo72hd6rkeve
+      stylelint-config-standard: registry.npmjs.org/stylelint-config-standard/29.0.0_stylelint@14.14.0
+      stylelint-config-standard-scss: registry.npmjs.org/stylelint-config-standard-scss/5.0.0_mnalcscwzozovshmobozjae4pq
     devDependencies:
-      postcss: registry.npmjs.org/postcss/8.4.16
+      postcss: registry.npmjs.org/postcss/8.4.18
       postcss-html: registry.npmjs.org/postcss-html/1.5.0
-      stylelint: registry.npmjs.org/stylelint/14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
 
 packages:
 
@@ -6879,7 +6879,7 @@ packages:
     dependencies:
       postcss: registry.npmjs.org/postcss/8.4.18
 
-  registry.npmjs.org/postcss-scss/4.0.5_postcss@8.4.16:
+  registry.npmjs.org/postcss-scss/4.0.5_postcss@8.4.18:
     resolution: {integrity: sha512-F7xpB6TrXyqUh3GKdyB4Gkp3QL3DDW1+uI+gxx/oJnUt/qXI4trj5OGlp9rOKdoABGULuqtqeG+3HEVQk4DjmA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/postcss-scss/-/postcss-scss-4.0.5.tgz}
     id: registry.npmjs.org/postcss-scss/4.0.5
     name: postcss-scss
@@ -6888,7 +6888,7 @@ packages:
     peerDependencies:
       postcss: ^8.3.3
     dependencies:
-      postcss: registry.npmjs.org/postcss/8.4.16
+      postcss: registry.npmjs.org/postcss/8.4.18
     dev: false
 
   registry.npmjs.org/postcss-selector-parser/6.0.10:
@@ -6904,16 +6904,6 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz}
     name: postcss-value-parser
     version: 4.2.0
-
-  registry.npmjs.org/postcss/8.4.16:
-    resolution: {integrity: sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/postcss/-/postcss-8.4.16.tgz}
-    name: postcss
-    version: 8.4.16
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: registry.npmjs.org/nanoid/3.3.4
-      picocolors: registry.npmjs.org/picocolors/1.0.0
-      source-map-js: registry.npmjs.org/source-map-js/1.0.2
 
   registry.npmjs.org/postcss/8.4.18:
     resolution: {integrity: sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz}
@@ -7771,7 +7761,7 @@ packages:
     name: style-search
     version: 0.1.0
 
-  registry.npmjs.org/stylelint-config-html/1.1.0_xhez2jbrlm5gsznvnryddq5rcu:
+  registry.npmjs.org/stylelint-config-html/1.1.0_2wb2ag3ubchp7fdo72hd6rkeve:
     resolution: {integrity: sha512-IZv4IVESjKLumUGi+HWeb7skgO6/g4VMuAYrJdlqQFndgbj6WJAXPhaysvBiXefX79upBdQVumgYcdd17gCpjQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-html/-/stylelint-config-html-1.1.0.tgz}
     id: registry.npmjs.org/stylelint-config-html/1.1.0
     name: stylelint-config-html
@@ -7782,10 +7772,10 @@ packages:
       stylelint: '>=14.0.0'
     dependencies:
       postcss-html: registry.npmjs.org/postcss-html/1.5.0
-      stylelint: registry.npmjs.org/stylelint/14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
     dev: false
 
-  registry.npmjs.org/stylelint-config-recommended-scss/7.0.0_2qqkayucxwqapvsl2wc27obdby:
+  registry.npmjs.org/stylelint-config-recommended-scss/7.0.0_mnalcscwzozovshmobozjae4pq:
     resolution: {integrity: sha512-rGz1J4rMAyJkvoJW4hZasuQBB7y9KIrShb20l9DVEKKZSEi1HAy0vuNlR8HyCKy/jveb/BdaQFcoiYnmx4HoiA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-7.0.0.tgz}
     id: registry.npmjs.org/stylelint-config-recommended-scss/7.0.0
     name: stylelint-config-recommended-scss
@@ -7793,15 +7783,15 @@ packages:
     peerDependencies:
       stylelint: ^14.4.0
     dependencies:
-      postcss-scss: registry.npmjs.org/postcss-scss/4.0.5_postcss@8.4.16
-      stylelint: registry.npmjs.org/stylelint/14.13.0
-      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/8.0.0_stylelint@14.13.0
-      stylelint-scss: registry.npmjs.org/stylelint-scss/4.3.0_stylelint@14.13.0
+      postcss-scss: registry.npmjs.org/postcss-scss/4.0.5_postcss@8.4.18
+      stylelint: registry.npmjs.org/stylelint/14.14.0
+      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/8.0.0_stylelint@14.14.0
+      stylelint-scss: registry.npmjs.org/stylelint-scss/4.3.0_stylelint@14.14.0
     transitivePeerDependencies:
       - postcss
     dev: false
 
-  registry.npmjs.org/stylelint-config-recommended-vue/1.4.0_xhez2jbrlm5gsznvnryddq5rcu:
+  registry.npmjs.org/stylelint-config-recommended-vue/1.4.0_2wb2ag3ubchp7fdo72hd6rkeve:
     resolution: {integrity: sha512-DVJqyX2KvMCn9U0+keL12r7xlsH26K4Vg8NrIZuq5MoF7g82DpMp326Om4E0Q+Il1o+bTHuUyejf2XAI0iD04Q==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-recommended-vue/-/stylelint-config-recommended-vue-1.4.0.tgz}
     id: registry.npmjs.org/stylelint-config-recommended-vue/1.4.0
     name: stylelint-config-recommended-vue
@@ -7813,12 +7803,12 @@ packages:
     dependencies:
       postcss-html: registry.npmjs.org/postcss-html/1.5.0
       semver: registry.npmjs.org/semver/7.3.8
-      stylelint: registry.npmjs.org/stylelint/14.13.0
-      stylelint-config-html: registry.npmjs.org/stylelint-config-html/1.1.0_xhez2jbrlm5gsznvnryddq5rcu
-      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/9.0.0_stylelint@14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
+      stylelint-config-html: registry.npmjs.org/stylelint-config-html/1.1.0_2wb2ag3ubchp7fdo72hd6rkeve
+      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/9.0.0_stylelint@14.14.0
     dev: false
 
-  registry.npmjs.org/stylelint-config-recommended/8.0.0_stylelint@14.13.0:
+  registry.npmjs.org/stylelint-config-recommended/8.0.0_stylelint@14.14.0:
     resolution: {integrity: sha512-IK6dWvE000+xBv9jbnHOnBq01gt6HGVB2ZTsot+QsMpe82doDQ9hvplxfv4YnpEuUwVGGd9y6nbaAnhrjcxhZQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-recommended/-/stylelint-config-recommended-8.0.0.tgz}
     id: registry.npmjs.org/stylelint-config-recommended/8.0.0
     name: stylelint-config-recommended
@@ -7826,10 +7816,10 @@ packages:
     peerDependencies:
       stylelint: ^14.8.0
     dependencies:
-      stylelint: registry.npmjs.org/stylelint/14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
     dev: false
 
-  registry.npmjs.org/stylelint-config-recommended/9.0.0_stylelint@14.13.0:
+  registry.npmjs.org/stylelint-config-recommended/9.0.0_stylelint@14.14.0:
     resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-recommended/-/stylelint-config-recommended-9.0.0.tgz}
     id: registry.npmjs.org/stylelint-config-recommended/9.0.0
     name: stylelint-config-recommended
@@ -7837,10 +7827,10 @@ packages:
     peerDependencies:
       stylelint: ^14.10.0
     dependencies:
-      stylelint: registry.npmjs.org/stylelint/14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
     dev: false
 
-  registry.npmjs.org/stylelint-config-standard-scss/5.0.0_2qqkayucxwqapvsl2wc27obdby:
+  registry.npmjs.org/stylelint-config-standard-scss/5.0.0_mnalcscwzozovshmobozjae4pq:
     resolution: {integrity: sha512-zoXLibojHZYPFjtkc4STZtAJ2yGTq3Bb4MYO0oiyO6f/vNxDKRcSDZYoqN260Gv2eD5niQIr1/kr5SXlFj9kcQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-standard-scss/-/stylelint-config-standard-scss-5.0.0.tgz}
     id: registry.npmjs.org/stylelint-config-standard-scss/5.0.0
     name: stylelint-config-standard-scss
@@ -7848,14 +7838,14 @@ packages:
     peerDependencies:
       stylelint: ^14.9.0
     dependencies:
-      stylelint: registry.npmjs.org/stylelint/14.13.0
-      stylelint-config-recommended-scss: registry.npmjs.org/stylelint-config-recommended-scss/7.0.0_2qqkayucxwqapvsl2wc27obdby
-      stylelint-config-standard: registry.npmjs.org/stylelint-config-standard/26.0.0_stylelint@14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
+      stylelint-config-recommended-scss: registry.npmjs.org/stylelint-config-recommended-scss/7.0.0_mnalcscwzozovshmobozjae4pq
+      stylelint-config-standard: registry.npmjs.org/stylelint-config-standard/26.0.0_stylelint@14.14.0
     transitivePeerDependencies:
       - postcss
     dev: false
 
-  registry.npmjs.org/stylelint-config-standard/26.0.0_stylelint@14.13.0:
+  registry.npmjs.org/stylelint-config-standard/26.0.0_stylelint@14.14.0:
     resolution: {integrity: sha512-hUuB7LaaqM8abvkOO84wh5oYSkpXgTzHu2Zza6e7mY+aOmpNTjoFBRxSLlzY0uAOMWEFx0OMKzr+reG1BUtcqQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-standard/-/stylelint-config-standard-26.0.0.tgz}
     id: registry.npmjs.org/stylelint-config-standard/26.0.0
     name: stylelint-config-standard
@@ -7863,23 +7853,23 @@ packages:
     peerDependencies:
       stylelint: ^14.9.0
     dependencies:
-      stylelint: registry.npmjs.org/stylelint/14.13.0
-      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/8.0.0_stylelint@14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
+      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/8.0.0_stylelint@14.14.0
     dev: false
 
-  registry.npmjs.org/stylelint-config-standard/28.0.0_stylelint@14.13.0:
-    resolution: {integrity: sha512-q/StuowDdDmFCravzGHAwgS9pjX0bdOQUEBBDIkIWsQuYGgYz/xsO8CM6eepmIQ1fc5bKdDVimlJZ6MoOUcJ5Q==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-standard/-/stylelint-config-standard-28.0.0.tgz}
-    id: registry.npmjs.org/stylelint-config-standard/28.0.0
+  registry.npmjs.org/stylelint-config-standard/29.0.0_stylelint@14.14.0:
+    resolution: {integrity: sha512-uy8tZLbfq6ZrXy4JKu3W+7lYLgRQBxYTUUB88vPgQ+ZzAxdrvcaSUW9hOMNLYBnwH+9Kkj19M2DHdZ4gKwI7tg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-config-standard/-/stylelint-config-standard-29.0.0.tgz}
+    id: registry.npmjs.org/stylelint-config-standard/29.0.0
     name: stylelint-config-standard
-    version: 28.0.0
+    version: 29.0.0
     peerDependencies:
-      stylelint: ^14.11.0
+      stylelint: ^14.14.0
     dependencies:
-      stylelint: registry.npmjs.org/stylelint/14.13.0
-      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/9.0.0_stylelint@14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
+      stylelint-config-recommended: registry.npmjs.org/stylelint-config-recommended/9.0.0_stylelint@14.14.0
     dev: false
 
-  registry.npmjs.org/stylelint-scss/4.3.0_stylelint@14.13.0:
+  registry.npmjs.org/stylelint-scss/4.3.0_stylelint@14.14.0:
     resolution: {integrity: sha512-GvSaKCA3tipzZHoz+nNO7S02ZqOsdBzMiCx9poSmLlb3tdJlGddEX/8QzCOD8O7GQan9bjsvLMsO5xiw6IhhIQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-4.3.0.tgz}
     id: registry.npmjs.org/stylelint-scss/4.3.0
     name: stylelint-scss
@@ -7892,13 +7882,13 @@ packages:
       postcss-resolve-nested-selector: registry.npmjs.org/postcss-resolve-nested-selector/0.1.1
       postcss-selector-parser: registry.npmjs.org/postcss-selector-parser/6.0.10
       postcss-value-parser: registry.npmjs.org/postcss-value-parser/4.2.0
-      stylelint: registry.npmjs.org/stylelint/14.13.0
+      stylelint: registry.npmjs.org/stylelint/14.14.0
     dev: false
 
-  registry.npmjs.org/stylelint/14.13.0:
-    resolution: {integrity: sha512-NJSAdloiAB/jgVJKxMR90mWlctvmeBFGFVUvyKngi9+j/qPSJ5ZB+u8jOmGbLTnS7OHrII9NFGehPRyar8U5vg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint/-/stylelint-14.13.0.tgz}
+  registry.npmjs.org/stylelint/14.14.0:
+    resolution: {integrity: sha512-yUI+4xXfPHVnueYddSQ/e1GuEA/2wVhWQbGj16AmWLtQJtn28lVxfS4b0CsWyVRPgd3Auzi0NXOthIEUhtQmmA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/stylelint/-/stylelint-14.14.0.tgz}
     name: stylelint
-    version: 14.13.0
+    version: 14.14.0
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:

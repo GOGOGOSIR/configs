@@ -20,6 +20,7 @@
 - markdown
 - tailwindcss
 - vue
+- react
 - ts
 - yaml
 
