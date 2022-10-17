@@ -97,6 +97,7 @@ module.exports = {
     'no-nested-ternary': 'off', // 关闭eslint对嵌套三元运算符的判定，以 unicorn 的 no-nested-ternary 为准
     'array-bracket-newline': ['error', 'consistent'], // 数组[]换行
     'array-element-newline': ['error', 'consistent'], // 数组元素换行
+    'no-new-func': 'off', // 允许使用new Function
 
     // n
     'n/no-callback-literal': 'off',
