@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.1](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/prettier-config@1.0.0-alpha.0...@gogogosir/prettier-config@1.0.0-alpha.1) (2022-10-17)
+
+
+### 📝 Documentation | 文档
+
+* 补充文档 ([84a3946](https://github.com/GOGOGOSIR/configs/commit/84a3946b24ee565054207a8f6742bcdccaa4a6ae))
+
+
+
 ## 1.0.0-alpha.0 (2022-10-16)
 
 
