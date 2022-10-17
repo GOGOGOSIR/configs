@@ -1,6 +1,5 @@
 module.exports = {
   extends: [
-    './ts/index.js',
     './vue/index.js',
     './react/index.js',
     './tailwindcss/index.js',
