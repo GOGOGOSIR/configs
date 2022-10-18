@@ -259,6 +259,6 @@ module.exports = {
     "vue"
   ],
   // 禁用 vetur
-  "vetur.enable": "false"
+  "vetur.format.enable": false
 }
 ```

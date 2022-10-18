@@ -52,6 +52,7 @@ module.exports = {
       condition: 'parens-new-line',
       logical: 'parens-new-line',
       prop: 'parens-new-line'
-    }]
+    }],
+    'react/no-unknown-property': ['error', { ignore: ['css', 'class'] }]
   }
 }
