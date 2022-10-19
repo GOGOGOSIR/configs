@@ -12,6 +12,7 @@ module.exports = {
     'no-duplicate-selectors': null,
     'color-function-notation': 'legacy',
     'alpha-value-notation': 'number',
+    'no-descending-specificity': null, // 允许重复的样式名
 
     // 兼容 tailwindcss
     'at-rule-no-unknown': [
