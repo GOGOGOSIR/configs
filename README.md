@@ -80,7 +80,7 @@ module.exports = {
 pnpm add stylelint postcss-html postcss @gogogosir/stylelint-config -D
 ```
 
-** postcss 必须 >=8.0.0 **
+**postcss 必须 >=8.0.0**
 
 ### 使用
 
