@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.0-alpha.3](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/stylelint-config@0.1.0-alpha.2...@gogogosir/stylelint-config@0.1.0-alpha.3) (2022-10-19)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **stylelint:** 对 color-function-notation 和 alpha-value-notation 做了配置 ([4fab20c](https://github.com/GOGOGOSIR/configs/commit/4fab20c138add3e226f447396a7e08bd0d6971e5))
+
+
+
 ## [0.1.0-alpha.2](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/stylelint-config@0.1.0-alpha.1...@gogogosir/stylelint-config@0.1.0-alpha.2) (2022-10-17)
 
 
