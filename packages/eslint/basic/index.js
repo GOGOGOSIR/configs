@@ -98,6 +98,7 @@ module.exports = {
     'array-bracket-newline': ['error', 'consistent'], // 数组[]换行
     'array-element-newline': ['error', 'consistent'], // 数组元素换行
     'no-new-func': 'off', // 允许使用new Function
+    'prefer-promise-reject-errors': 'off', // 允许使用自定义错误信息
 
     // n
     'n/no-callback-literal': 'off',
