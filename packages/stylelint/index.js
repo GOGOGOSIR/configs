@@ -10,6 +10,8 @@ module.exports = {
     'string-quotes': 'single',
     'max-line-length': 480,
     'no-duplicate-selectors': null,
+    'color-function-notation': 'legacy',
+    'alpha-value-notation': 'number',
 
     // 兼容 tailwindcss
     'at-rule-no-unknown': [
