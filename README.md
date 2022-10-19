@@ -43,6 +43,20 @@ module.exports = {
 }
 ```
 
+覆盖默认配置：
+
+例如，该配置对 vue 的校验是针对 3.0 版本的。其中有个配置 `vue/no-deprecated-slot-scope-attribute` 使用来禁止用户使用 `slot-scope` 属性的（[规则详情](https://eslint.vuejs.org/rules/no-deprecated-slot-scope-attribute.html)）。如果你想让项目可以使用 `slot-scope` 属性，你只需要覆盖原有配置即可：
+
+
+```js
+module.exports = {
+  extends: ['@gogogosir'],
+  rules: {
+    'vue/no-deprecated-slot-scope-attribute': 'off'
+  }
+}
+```
+
 ### 配合 lint-staged
 
 在 package.json 增加以下配置；
