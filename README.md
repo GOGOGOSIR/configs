@@ -2,7 +2,26 @@
 
 一些通用的配置
 
-[toc]
+**目录：**
+
+* [eslint-config](#eslint-config)
+  * [校验以下格式文件:](#-校验以下格式文件)
+  * [安装](#安装)
+  * [使用](#使用)
+  * [配合 lint-staged](#配合-lint-staged)
+  * [Q&amp;A](#qa)
+* [stylelint-config](#stylelint-config)
+  * [安装](#安装-1)
+  * [使用](#使用-1)
+  * [配合 lint-staged](#配合-lint-staged-1)
+* [prettier-config](#prettier-config)
+  * [Install](#install)
+  * [使用](#使用-2)
+  * [默认配置如下：](#默认配置如下)
+  * [建议](#建议)
+* [vscode-config](#vscode-config)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
 ## eslint-config
 

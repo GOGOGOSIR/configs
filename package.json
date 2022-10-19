@@ -22,7 +22,8 @@
     "prepare": "husky install",
     "release": "lerna publish --conventional-commits --create-release github",
     "prerelease": "lerna publish --conventional-commits --conventional-prerelease --create-release github",
-    "graduate": "lerna publish --conventional-commits --conventional-graduate --create-release github"
+    "graduate": "lerna publish --conventional-commits --conventional-graduate --create-release github",
+    "gen-toc": "~/Desktop/gh-md-toc ./README.md"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
