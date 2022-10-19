@@ -148,8 +148,7 @@ module.exports = {
       {
         case: 'kebabCase',
         ignore: [
-          '^App\\.js$',
-          '^App\\.ts$'
+          '^App\\.vue$'
         ]
       }
     ], // 以该文件形式创建文件foo-bar.js
