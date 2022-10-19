@@ -146,7 +146,11 @@ module.exports = {
     'unicorn/filename-case': [
       'error',
       {
-        case: 'kebabCase'
+        case: 'kebabCase',
+        ignore: [
+          '^App\\.js$',
+          '^App\\.ts$'
+        ]
       }
     ], // 以该文件形式创建文件foo-bar.js
     'unicorn/no-instanceof-array': 'error', // Require Array.isArray() instead of instanceof Array.
