@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.7](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.6...@gogogosir/eslint-config@1.0.0-alpha.7) (2022-10-19)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **eslint:** unicorn/filename-case 忽略 App.ts 的校验 ([a21a464](https://github.com/GOGOGOSIR/configs/commit/a21a46486ed47a8317463a945e91f23dea669d6a))
+
+
+
 ## [1.0.0-alpha.6](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.5...@gogogosir/eslint-config@1.0.0-alpha.6) (2022-10-19)
 
 
