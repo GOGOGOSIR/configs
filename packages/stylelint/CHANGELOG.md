@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.0-alpha.4](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/stylelint-config@0.1.0-alpha.3...@gogogosir/stylelint-config@0.1.0-alpha.4) (2022-10-19)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **stylelint:** 允许重复的样式名 ([b61ff52](https://github.com/GOGOGOSIR/configs/commit/b61ff52242f6038c576f894372825f3ef7830a21))
+
+
+
 ## [0.1.0-alpha.3](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/stylelint-config@0.1.0-alpha.2...@gogogosir/stylelint-config@0.1.0-alpha.3) (2022-10-19)
 
 
