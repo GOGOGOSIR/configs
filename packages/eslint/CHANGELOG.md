@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.8](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.7...@gogogosir/eslint-config@1.0.0-alpha.8) (2022-10-19)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **eslint:** app.vue eslint校验文件异常 ([1748f46](https://github.com/GOGOGOSIR/configs/commit/1748f46007df2b80407a554a59824851bdf1fc56))
+
+
+
 ## [1.0.0-alpha.7](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.6...@gogogosir/eslint-config@1.0.0-alpha.7) (2022-10-19)
 
 
