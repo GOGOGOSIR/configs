@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.9](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.8...@gogogosir/eslint-config@1.0.0-alpha.9) (2022-10-20)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **eslint:** eslint 对 .*.js 校验的支持 ([f78b762](https://github.com/GOGOGOSIR/configs/commit/f78b7620693906b65ccdf2a68d30ff790efcd0f8))
+
+
+
 ## [1.0.0-alpha.8](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.7...@gogogosir/eslint-config@1.0.0-alpha.8) (2022-10-19)
 
 
