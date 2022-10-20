@@ -24,7 +24,10 @@ module.exports = {
     '__snapshots__',
     '!.github',
     '!.vitepress',
-    '!.vscode'
+    '!.vscode',
+    '!.*.js',
+    '!.*.mjs',
+    '!.*.cjs'
   ],
   settings: {
     'import/resolver': {

@@ -267,6 +267,7 @@ module.exports = {
     "source.fixAll.eslint",
     "source.fixAll.stylelint"
   ],
+  "editor.formatOnPaste": true,
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": false,
   "eslint.validate": [
