@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // 解决 import * as xx from 'path' 和 import xx from 'path' 的转化问题
+    "exactOptionalPropertyTypes": true, // 对undefined强校验， ts version >=4.4
+    "forceConsistentCasingInFileNames": true, // 区分文件的大小写
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitOverride": true, // 继承时如果重写基类的方法必须加上 override 关键字
+    "noImplicitReturns": true, // 校验函数的返回值是否正确
+    "noUncheckedIndexedAccess": true, // Turning on noUncheckedIndexedAccess will add undefined to any un-declared field in the type.
+    "removeComments": true, // 删除注释
+    "resolveJsonModule": true, // 允许使用 import 导入 json
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext"
+  }
+}

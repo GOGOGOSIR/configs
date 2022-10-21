@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "extends": "./node_modules/@gogogosir/ts-config/basic.json",
+  "include": ["packages/**/*"]
+}

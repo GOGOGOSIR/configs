@@ -53,7 +53,8 @@
     "yml"
   ],
   "files.associations": {
-    "*.css": "postcss"
+    "*.css": "postcss",
+    "*.json": "jsonc"
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,

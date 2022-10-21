@@ -1,0 +1,26 @@
+{
+  "name": "@gogogosir/ts-config",
+  "version": "0.0.0",
+  "description": "ts-config",
+  "author": "wanjianqiang <1239531712@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/GOGOGOSIR/configs/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOGOGOSIR/configs.git",
+    "directory": "packages/ts-config"
+  },
+  "bugs": {
+    "url": "https://github.com/GOGOGOSIR/configs/issues"
+  },
+  "main": "basic.json",
+  "files": [
+    "basic.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.4.0"
+  }
+}

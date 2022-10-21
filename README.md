@@ -143,6 +143,43 @@ module.exports = {
 }
 ```
 
+## ts-config
+
+<p align='left'>
+  <a href='https://www.npmjs.com/package/@gogogosir/ts-config'>
+    <img src="https://img.shields.io/npm/v/@gogogosir/ts-config?color=41b883&label=npm" />
+  </a>
+   <a href='https://www.npmjs.com/package/@gogogosir/ts-config'>
+    <img src="https://img.shields.io/npm/l/@gogogosir/ts-config?label=npm" />
+  </a>
+</p>
+
+**tsconfig** 通用配置
+
+### 安装
+
+```shell
+pnpm add typescript @gogogosir/ts-config -D
+```
+
+**typescript 必须 >=4.4.0**
+
+### 使用
+
+- 在项目根目录新建 ```tsconfig.json``` 文件
+- 配置 ```tsconfig.json``` 文件
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "extends": "./node_modules/@gogogosir/ts-config/basic.json",
+  "include": ["src/**/*"]
+}
+```
+
+
 ## prettier-config
 
 <p align='left'>
@@ -154,7 +191,7 @@ module.exports = {
   </a>
 </p>
 
-### Install
+### 安装
 
 ``` bash
 pnpm add prettier @gogogosir/prettier-config -D
@@ -282,7 +319,8 @@ module.exports = {
     "yml"
   ],
   "files.associations": {
-    "*.css": "postcss"
+    "*.css": "postcss",
+    "*.json": "jsonc"
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
