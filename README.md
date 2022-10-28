@@ -254,6 +254,7 @@ module.exports = {
 ```json
 {
   "recommendations": [
+    "Vue.vscode-typescript-vue-plugin",
     "cpylua.language-postcss",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
