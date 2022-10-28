@@ -3,20 +3,21 @@
     "esModuleInterop": true, // 解决 import * as xx from 'path' 和 import xx from 'path' 的转化问题
     "exactOptionalPropertyTypes": true, // 对undefined强校验， ts version >=4.4
     "forceConsistentCasingInFileNames": true, // 区分文件的大小写
-    "jsx": "preserve",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
+    "importsNotUsedAsValues": "error", // Enforce using `import type` instead of `import` for types
+    "isolatedModules": true, // Required in Vite
+    "jsx": "preserve", // Required in Vue projects
     "module": "esnext",
     "moduleResolution": "node",
     "noImplicitOverride": true, // 继承时如果重写基类的方法必须加上 override 关键字
     "noImplicitReturns": true, // 校验函数的返回值是否正确
+    "noImplicitThis": true, //  Added again here in case some users decide to disable `strict`.
     "noUncheckedIndexedAccess": true, // Turning on noUncheckedIndexedAccess will add undefined to any un-declared field in the type.
+    "preserveValueImports": true, // For `<script setup>`, See <https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#preserve-value-imports>
     "removeComments": true, // 删除注释
     "resolveJsonModule": true, // 允许使用 import 导入 json
     "sourceMap": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "useDefineForClassFields": true // https://zhuanlan.zhihu.com/p/258906525
   }
 }

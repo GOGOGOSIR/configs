@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": [
+      // Should target at least ES2016 in Vue 3
+      // Support for newer versions of language built-ins are
+      // left for the users to include, because that would require:
+      //   - either the project doesn't need to support older versions of browsers;
+      //   - or the project has properly included the necessary polyfills.
+      "ES2016",
+      "dom"
+    ],
+    "skipLibCheck": true // See <https://github.com/vuejs/vue-cli/pull/5688>
+  },
+  "extends": "./basic.json"
+}
