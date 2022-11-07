@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.10](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.9...@gogogosir/eslint-config@1.0.0-alpha.10) (2022-11-07)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 关闭 unicorn/no-useless-fallback-in-spread ([92345c9](https://github.com/GOGOGOSIR/configs/commit/92345c997a655b79f3bd224fce52e591f8ad98a1))
+
+
+
 ## [1.0.0-alpha.9](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.8...@gogogosir/eslint-config@1.0.0-alpha.9) (2022-10-20)
 
 
