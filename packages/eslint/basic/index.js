@@ -162,7 +162,7 @@ module.exports = {
     'unicorn/no-unreadable-array-destructuring': 'error', // 禁止不可读的数组的解构
     'unicorn/no-unreadable-iife': 'error',
     'unicorn/no-unsafe-regex': 'error', // 禁止不安全的正则
-    'unicorn/no-useless-fallback-in-spread': 'error', // 在对象文字中传播时禁止无用的回退
+    'unicorn/no-useless-fallback-in-spread': 'off', // 在对象文字中传播时禁止无用的回退
     'unicorn/no-useless-length-check': 'error', // 禁止无用的长度校验
     'unicorn/no-useless-promise-resolve-reject': 'error', // 禁止无用的 promise-resolve-reject
     'unicorn/no-useless-switch-case': 'error', // 禁用无效的switch
