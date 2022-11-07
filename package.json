@@ -44,7 +44,7 @@
     }
   },
   "lint-staged": {
-    "packages/**/*.{js,cjs,mjs,jsx,vue,ts,tsx,cts,mts,json,yaml}": [
+    "packages/**/*.{js,cjs,mjs,jsx,vue,ts,tsx,cts,mts}": [
       "eslint --fix --max-warnings 0"
     ]
   }
