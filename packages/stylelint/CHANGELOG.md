@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.0-alpha.5](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/stylelint-config@0.1.0-alpha.4...@gogogosir/stylelint-config@0.1.0-alpha.5) (2022-11-14)
+
+
+### ✨ Features | 新功能
+
+* **stylelint:** 对sass语法的校验做补充 ([a8e4ea2](https://github.com/GOGOGOSIR/configs/commit/a8e4ea2feed7bf4608c821777cef25117d22c5f4))
+
+
+
 ## [0.1.0-alpha.4](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/stylelint-config@0.1.0-alpha.3...@gogogosir/stylelint-config@0.1.0-alpha.4) (2022-10-19)
 
 

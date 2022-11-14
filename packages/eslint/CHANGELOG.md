@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.11](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.10...@gogogosir/eslint-config@1.0.0-alpha.11) (2022-11-14)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 关闭 unicorn/no-unsafe-regex ([1994be8](https://github.com/GOGOGOSIR/configs/commit/1994be8ba01ce3c7ff4cc76e60c691eeac82920b))
+* 关闭 unicorn/prefer-spread 属性 ([dd7d719](https://github.com/GOGOGOSIR/configs/commit/dd7d71914e495f89a14eec14a126a5fac73bf010))
+
+
+
 ## [1.0.0-alpha.10](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.9...@gogogosir/eslint-config@1.0.0-alpha.10) (2022-11-07)
 
 
