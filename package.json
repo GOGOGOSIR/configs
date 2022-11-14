@@ -28,7 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@gogogosir/eslint-config": "workspace:*",
+    "@gogogosir/eslint-config": "workspace:^",
     "@gogogosir/ts-config": "workspace:^",
     "commitizen": "^4.2.4",
     "commitlint": "^17.2.0",
