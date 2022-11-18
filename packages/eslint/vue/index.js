@@ -43,7 +43,7 @@ module.exports = {
     'vue/define-macros-order': ['error', {
       order: ['defineProps', 'defineEmits']
     }],
-    'vue/define-props-declaration': ['error', 'type-based'], // 规范 defineProps 的类型定义
+    'vue/define-props-declaration': 'off', // 规范 defineProps 的类型定义
     'vue/html-comment-content-spacing': ['error', 'always'], // 注释两边需要有空格
     'vue/html-comment-content-newline': ['error', {
       singleline: 'never',
