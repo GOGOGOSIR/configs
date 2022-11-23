@@ -255,10 +255,12 @@ module.exports = {
 {
   "recommendations": [
     "Vue.vscode-typescript-vue-plugin",
+    "bradlc.vscode-tailwindcss",
     "cpylua.language-postcss",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "rohit-gohri.format-code-action",
+    "stylelint.vscode-stylelint",
     "vue.volar"
   ]
 }
