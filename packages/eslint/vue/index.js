@@ -38,7 +38,7 @@ module.exports = {
       ignores: []
     }], // 在template中使用组件的标签名的规范
     'vue/component-options-name-casing': ['error', 'PascalCase'], // 配置component属性组件名的规范
-    'vue/custom-event-name-casing': ['error', 'kebab-case'], // 自定义事件的命名规范 (这里兼容vue2的推荐写法)
+    'vue/custom-event-name-casing': ['error', 'camelCase'], // 自定义事件的命名规范 (这里兼容vue2的推荐写法)
     'vue/define-emits-declaration': ['error', 'type-based'], // 规范 defineEmits 的类型定义
     'vue/define-macros-order': ['error', {
       order: ['defineProps', 'defineEmits']
