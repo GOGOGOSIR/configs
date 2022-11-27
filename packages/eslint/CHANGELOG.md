@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-alpha.12](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.11...@gogogosir/eslint-config@1.0.0-alpha.12) (2022-11-27)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **eslint:** vue/custom-event-name-casing 变更为 camelCase ([b290033](https://github.com/GOGOGOSIR/configs/commit/b290033304ac91bc6f817baca2341f94a20dacce))
+
+
+
 ## [1.0.0-alpha.11](https://github.com/GOGOGOSIR/configs/compare/@gogogosir/eslint-config@1.0.0-alpha.10...@gogogosir/eslint-config@1.0.0-alpha.11) (2022-11-14)
 
 
