@@ -10,6 +10,7 @@ module.exports = {
   rules: {
     // react
     // off
+    'react/display-name': 'off',
     'react/react-in-jsx-scope': 'off', // 在 jsx 中必须引入 react
 
     'react/destructuring-assignment': ['error', 'always'], // 推荐使用结构
