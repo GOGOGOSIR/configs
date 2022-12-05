@@ -164,7 +164,7 @@ module.exports = {
     'unicorn/no-unsafe-regex': 'off', // 禁止不安全的正则
     'unicorn/no-useless-fallback-in-spread': 'off', // 在对象文字中传播时禁止无用的回退
     'unicorn/no-useless-length-check': 'error', // 禁止无用的长度校验
-    'unicorn/no-useless-promise-resolve-reject': 'error', // 禁止无用的 promise-resolve-reject
+    'unicorn/no-useless-promise-resolve-reject': 'off', // 禁止无用的 promise-resolve-reject
     'unicorn/no-useless-switch-case': 'error', // 禁用无效的switch
     'unicorn/no-useless-undefined': 'error', // 禁用无效的undefined
     'unicorn/relative-url-style': 'error', // 限制new Url的样式
